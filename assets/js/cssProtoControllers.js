@@ -141,7 +141,7 @@ app.controller('cssSelectorsController', function() {
 //css_bootstrap_grid
 app.controller('cssBsGridController', function() {
     this.title = ['CSS Bootstrap Grid System', 'css_bootstrap_grid'];
-    this.description = "<p>Expanding on your understanding of CSS by introducing you to Bootstrap. Bootstrap gives you a wide range of styling options. For this prototype we will be experimenting with the Bootstrap grid system.</p><p>This prototype is based on the information that you obtained through the following resources <b>(If you haven't gone through these then please do so now).</b></p>";
+    this.description = "<p>Expanding your understanding of CSS with an introduction to Bootstrap. Bootstrap gives you a wide range of styling options. For this prototype we will be experimenting with the Bootstrap grid system.</p><p>This prototype is based on the information that you obtained through the following resources <b>(If you haven't gone through these then please do so now).</b></p>";
     this.branch = 'css_bs_grid';
     this.protoId = 11;
 
@@ -168,19 +168,19 @@ app.controller('cssBsGridController', function() {
 
     this.features = {
         'Getting Started': {
-            html: "<ol class='left-border'><li>An <code>index.html</code> file has been included with this prototype and can be found in the <code>css_bootstrap_grid</code> folder</li><li>For each feature set <code>html</code> has already been started for you</li><li>Note the class names of each section, those corrispond directly to each feature set</li><li>A <code>style.css</code> file has also been included to help visualize the grid better.<ul><li>There should be no need to alter this file</li></ul></li></ol>"
+            html: "<ol class='left-border'><li>An <code>index.html</code> file has been included with this prototype and can be found in the <code>css_bootstrap_grid</code> folder</li><li>For each feature set <code>html</code> has already been started for you</li><li>Note the class names of each section, those corrispond directly to each feature set</li><li>A <code>style.css</code> file has also been included to help visualize the grid better.<ul><li>There is no need to alter this file</li></ul></li></ol>"
         },
-        'Feature Set 1 - Equal Grids': {
-            html: "<ol class='left-border'><li>Add an appropriate Bootstrap CSS style file to the link in the head that is provided<ul><li><b>Hint:</b> Try to Google - \"Bootstrap CDN\"</li><li>For now you only need the CSS file</li></ul></li><li>Apply bootstrap classes to size things according to the description in the divs</li></ol>"
+        'Feature Set 1 - Equal Columns': {
+            html: "<ol class='left-border'><li>Add an appropriate Bootstrap CSS file to the link in the head that is provided<ul><li><b>Hint:</b> Try to Google - \"Bootstrap CDN\"</li><li>For now you only need the CSS file</li></ul></li><li>Apply Bootstrap classes to size things according to the description in the divs</li></ol>"
         },
-        'Feature Set 2 - Unequal Grids': {
-            html: "<ul class='left-border'><li>Apply bootstrap classes to size things according to the description in the divs</li></ul>"
+        'Feature Set 2 - Unequal Columns': {
+            html: "<ul class='left-border'><li>Apply Bootstrap classes to size everything according to the description in the divs</li></ul>"
         },
-        'Feature Set 3 - Unequal Grids With Gutters': {
-            html: "<ul class='left-border'><li>Apply bootstrap classes to size things according to the description in the divs</li></ul>"
+        'Feature Set 3 - Unequal Columns With Gutters': {
+            html: "<ul class='left-border'><li>Apply Bootstrap classes to size everything according to the description in the divs</li></ul>"
         },
-        'Feature Set 4 - Responsive Grid With Hidden / Shown Element': {
-            html: "<ul class='left-border'><li>Apply bootstrap classes to size things according to the description in the divs</li></ul>"
+        'Feature Set 4 - Responsive Columns With Hidden / Shown Element': {
+            html: "<ul class='left-border'><li>Apply Bootstrap classes to size everything according to the description in the divs</li></ul>"
         }
     }
 
