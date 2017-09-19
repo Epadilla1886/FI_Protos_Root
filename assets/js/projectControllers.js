@@ -97,19 +97,35 @@ app.controller('portfolio05Controller', function() {
 //MBoutique - Assignment 1
 app.controller('mboutique1Controller', function() {
     this.title = ['MBoutique Assignment 1', 'mboutique_assignment_1'];
-    this.description = "<p>This project will combine all the HTML and CSS knowledge you have gained so far to create a full website. For assignment 1 you will be building out the Home page of the MBoutique website.</p>";
+    this.description = "<p>This project will combine all the HTML and CSS knowledge you have gained so far, to create a full website. For assignment 1 you will be building out the Home page of the MBoutique website.</p>";
     this.repoName = "mboutique_root";
     this.branch = 'assignment_1';
     this.projectId = 3;
 
-    //this.links = {
-    //    'Related Slide': {},
-    //    'Related Video': {}
-    //};
+    this.links = {
+        'Related Slide': {
+            'HTML Intro: Internet & Browsers': 'https://docs.google.com/presentation/d/1-Ds5wE1iv5WTBGK6D-BaCGwFWeVXSGYN8yvz8ojYnZo/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Elements & Attributes': 'https://docs.google.com/presentation/d/1jHnfRkBVqiBw6GEa2mUR13fO468keu99NP_Befr8nmc/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Formatting & HTML Styling': 'https://docs.google.com/presentation/d/1_FMjUbUgJjMOroOlVG4wkkNO9tvgRDVQ7YS2dirDPEI/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'Head and Style Tags & CSS Intro': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Links, Images & Lists': 'https://docs.google.com/presentation/d/1BrpssbsEhd7NeIjQAMEXKq-HSGtmDXlN3-TS2bc4J0w/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'CSS Design & Layout 1': 'https://docs.google.com/presentation/d/1wJU3BPRs8Bdr-frGc61ijv2Hf8QHF_CrMNCtNl8PFV0/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'CSS Intro - Positioning & Floating': 'https://docs.google.com/presentation/d/1AUaknmBg8MEVCxnakMf6jPnjVJxxHLfo0o5MifvilsQ/pub?start=false&loop=false&delayms=3000&slide=id.p'
+
+        },
+        'Related Video': {
+            'HTML Intro: Internet & Browsers': 'https://www.youtube.com/watch?v=pcwNtWyzwJo',
+            'HTML Fundamentals - Elements, Attributes and Comments': 'https://www.youtube.com/watch?v=2vqL3OsxRLE',
+            'Text Formatting and Basic Styles': 'https://www.youtube.com/watch?v=P5sPEr52OVs',
+            'Head and Style Tags & CSS Intro': 'https://www.youtube.com/watch?v=Jnirh7CCMW8',
+            'HTML Links, Images & Lists': 'https://www.youtube.com/watch?v=w8robcf8-GY',
+            'Layout Structure and Design': 'https://www.youtube.com/watch?v=0-WRsALktzE'
+        }
+    };
 
     this.features = {
         'Assignment 1': {
-            html: '<h4>Getting Started</h4><ol class="left-border"><li>Within your <b>' + this.repoName + '</b> folder, create a sub folder named: <code>' + this.branch + '</code></li><li>In your new <code>' + this.branch + '</code> folder create the following files:<ol class="nested-1"><li><code>index.html</code></li><li><code>style.css</code></li></ol></li><li>In the <code>&lt;head&gt;</code>:<ol class="nested-1"><li>Give your site a title</li><li>Link to your <code>style.css</code></li></ol></li></ol>'
+            html: '<h4>Getting Started</h4><ol class="left-border"><li>Within your <b>' + this.repoName + '</b> folder, create a sub folder named: <code>' + this.branch + '</code></li><li>In your new <code>' + this.branch + '</code> folder create the following files:<ol class="nested-1"><li><code>index.html</code></li><li><code>style.css</code></li></ol></li><li>In the <code>&lt;head&gt;</code> of your index file:<ol class="nested-1"><li>Give your site a title</li><li>Link to your <code>style.css</code></li></ol></li></ol>'
         },
         'Feature Set 1': {
             html: '<ol class="left-border"><li>Create the HTML and CSS necessary to reproduce the MBoutique home/welcome page<ul><li>Use the <code>index.html</code> file for your <b>HTML</b></li><li>Use the <code>style.css</code> file for your <b>CSS</b></li></ul></li><li>Use the design images for reference (Found in the assets folder)</li></ol>'
@@ -121,7 +137,7 @@ app.controller('mboutique1Controller', function() {
             html: '<ul class="left-border"><li class="clean-list"><a href="assets/images/projects/mboutique/welcome_exp.png" target="_blank"><img src="assets/images/projects/mboutique/welcome_exp.png" alt="MBoutique Home Page Design Doc" class="image-responsive"></a></li></ul>'
         },
         'Suggestions': {
-            html: '<ol class="left-border"><li>Break the page down into sections and build one section at a time. For example:<ol class="nested-1"><li>Header section</li><li>Body/Main content section</li><li>Footer section</li></ol></li><li>Keep in mind that there are multiple pages<ol class="nested-1"><li>Notice the sections that are the same on all pages like the header and footer</li><li>Design your HTML so that it will be easy to reuse the header and footer sections on all the pages</li></ol></li><li>Don\'t panic<ul><li>If you get stuck or have any issues use google or the LearningFuze chat </li></ul></li><li>If you are familiar with them, make use of the chrome developer tools to prototype out your changes.<ul><li>You can find more details on <a href="http://discover-devtools.codeschool.com/" target="_blank">chrome developer tools</a> on codeschool and other places. </li></ul></li><li>Test each CSS change as you implement it. It can be difficult to ascertain "what went wrong" if you do many lines of code and then test it.</li><li>Pay attention to the gross details first, and then make a second pass for fine details. </li></ol>'
+            html: '<ol class="left-border"><li>Break the page down into sections and build one section at a time. For example:<ol class="nested-1"><li>Header section</li><li>Body/Main content section</li><li>Footer section</li></ol></li><li>Keep in mind that this project will have multiple pages<ol class="nested-1"><li>Notice which sections are shared between all pages (like the header and footer)</li><li>Design your HTML so that it will be easy to reuse the header and footer sections on all the pages</li></ol></li><li>Don\'t panic<ul><li>If you get stuck or have any issues use Google or the LearningFuze Slack channel </li></ul></li><li>Make use of the chrome developer tools to prototype out your changes.<ul><li>You can find more details on <a href="http://discover-devtools.codeschool.com/" target="_blank">chrome developer tools</a> on CodeSchool and other places. </li></ul></li><li>Test each CSS change as you implement it. Sometimes it can be difficult to ascertain "what went wrong" if you write a ton of code and wait to test it at the very end.</li><li>Pay attention to the broad details first, and then make a second pass for fine details. </li></ol>'
         }
     }
 });
