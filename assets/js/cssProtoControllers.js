@@ -59,7 +59,7 @@ app.controller('cssLayout2Controller', function() {
             'CSS Intro - Positioning & Floating': 'https://docs.google.com/presentation/d/1FtwdmaSl5icYHzBxY6uCZUHM7K_smRfS7eF0q-P46GY/pub?start=false&loop=false&delayms=3000&slide=id.p'
         },
         Video: {
-            'CSS Intro - Positioning $ Flaoting': 'http://portal.learningfuze.com/node/733'
+            'CSS Intro - Positioning & Flaoting': 'http://portal.learningfuze.com/node/733'
         }
     };
 
@@ -111,8 +111,8 @@ app.controller('cssSelectorsController', function() {
             'CSS Selectors': 'http://portal.learningfuze.com/node/736'
         },
         'Related Project': {
-            Portfolio: 'https://github.com/Learning-Fuze/portfolio#version-1-v1',
-            mBoutique: 'https://github.com/Learning-Fuze/mboutique',
+            Portfolio: 'https://github.com/Learning-Fuze/portfolio_root',
+            mBoutique: 'https://github.com/Learning-Fuze/mboutique_root',
         }
     };
 
