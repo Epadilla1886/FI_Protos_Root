@@ -12,36 +12,36 @@ app.controller('portfolio01Controller', function() {
             'HTML Elements & Attributes': 'https://docs.google.com/presentation/d/1jHnfRkBVqiBw6GEa2mUR13fO468keu99NP_Befr8nmc/pub?start=false&loop=false&delayms=3000&slide=id.p',
             'HTML Formatting & HTML Styling': 'https://docs.google.com/presentation/d/1_FMjUbUgJjMOroOlVG4wkkNO9tvgRDVQ7YS2dirDPEI/pub?start=false&loop=false&delayms=3000&slide=id.p',
             'Head and Style Tags & CSS Intro ': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Links, Images &amp; Text Styling': 'https://docs.google.com/presentation/d/1BrpssbsEhd7NeIjQAMEXKq-HSGtmDXlN3-TS2bc4J0w/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Layout Structure &amp; Design #1': 'https://docs.google.com/presentation/d/1wJU3BPRs8Bdr-frGc61ijv2Hf8QHF_CrMNCtNl8PFV0/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Layout Structure &amp; Design #2': 'https://docs.google.com/presentation/d/1AUaknmBg8MEVCxnakMf6jPnjVJxxHLfo0o5MifvilsQ/pub?start=false&loop=false&delayms=3000&slide=id.p'
+            'HTML Links, Images & Lists': 'https://docs.google.com/presentation/d/1BrpssbsEhd7NeIjQAMEXKq-HSGtmDXlN3-TS2bc4J0w/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'CSS Design & Layout 1': 'https://docs.google.com/presentation/d/1wJU3BPRs8Bdr-frGc61ijv2Hf8QHF_CrMNCtNl8PFV0/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'CSS Intro - Positioning & Floating': 'https://docs.google.com/presentation/d/1AUaknmBg8MEVCxnakMf6jPnjVJxxHLfo0o5MifvilsQ/pub?start=false&loop=false&delayms=3000&slide=id.p'
 
         },
         'Related Video': {
-            'Internet &amp; Browsers': 'https://www.youtube.com/watch?v=pcwNtWyzwJo',
-            'Elements &amp; Attributes': 'https://www.youtube.com/watch?v=2vqL3OsxRLE',
-            'Text Formatting &amp; Style': 'https://www.youtube.com/watch?v=P5sPEr52OVs',
-            'Head &amp; Style Tags': 'https://www.youtube.com/watch?v=Jnirh7CCMW8',
-            'Links, Images &amp; Text Styling': 'https://www.youtube.com/watch?v=w8robcf8-GY',
-            'Layout Structure &amp; Design': 'https://www.youtube.com/watch?v=0-WRsALktzE'
+            'HTML Intro: Internet & Browsers': 'https://www.youtube.com/watch?v=pcwNtWyzwJo',
+            'HTML Fundamentals - Elements, Attributes and Comments': 'https://www.youtube.com/watch?v=2vqL3OsxRLE',
+            'Text Formatting and Basic Styles': 'https://www.youtube.com/watch?v=P5sPEr52OVs',
+            'Head and Style Tags & CSS Intro': 'https://www.youtube.com/watch?v=Jnirh7CCMW8',
+            'HTML Links, Images & Lists': 'https://www.youtube.com/watch?v=w8robcf8-GY',
+            'Layout Structure and Design': 'https://www.youtube.com/watch?v=0-WRsALktzE'
         }
     };
 
     this.features = {
         'v0.1': {
-            html: "<h3>Getting Started</h3><ol class='left-border'><li>Within your <b>" + this.repoName + "</b> folder create a sub folder named: <code>" + this.branch + "</code></li><li>Within your new <code>" + this.branch + "</code> folder create the following files:<ol class='nested-1'><li><code>index.html</code></li><li><code>style.css</code></li></ol></li><li>In your new <code>index.html</code> file create a basic HTML skeleton that includes the following tags:<ol class='nested-1'><li><code>&lt;DOCTYPE&gt;</code></li><li><code>&lt;html&gt;</code></li><li><code>&lt;head&gt;</code></li><li><code>&lt;body&gt;</code></li></ol></li><li>In your <code>&lt;head&gt;</code>:<ol class='nested-1'><li>Use <code>&lt;title&gt;</code> to give your site a title</li><li>Link to your <code>style.css</code> file</li></ol></li><li>Choose a layout from html_fundamentals_5 prototype - <a href='#/HTML-Fundamentals-5' target='_blank'>view</a></li><li>Take content you have previously generated in past prototypes and complete the following feature sets.</li><li>Add content to appropriate section / page (depending on the layout choice) in your portfolio project</li></ol>"
+            html: "<h3>Getting Started</h3><ol class='left-border'><li>Within your <b>" + this.repoName + "</b> folder create a sub folder named: <code>" + this.branch + "</code></li><li>Within your new <code>" + this.branch + "</code> folder create the following files:<ol class='nested-1'><li><code>index.html</code></li><li><code>style.css</code></li></ol></li><li>In your new <code>index.html</code> file create a basic HTML skeleton that includes the following tags:<ol class='nested-1'><li><code>&lt;DOCTYPE&gt;</code></li><li><code>&lt;html&gt;</code></li><li><code>&lt;head&gt;</code></li><li><code>&lt;body&gt;</code></li></ol></li><li>In your <code>&lt;head&gt;</code>:<ol class='nested-1'><li>Use <code>&lt;title&gt;</code> to give your site a title</li><li>Link to your <code>style.css</code> file</li></ol></li><li>Choose a layout from the html_fundamentals_5 prototype - <a href='#/HTML-Fundamentals-5' target='_blank'>view</a></li><li>Take content you have previously generated in past prototypes to complete the following feature sets</li><li>Add content to appropriate section / page (depending on the layout choice) in your portfolio project</li></ol>"
         },
         'Feature Set 1 - About Me': {
             html: "<ol class='left-border'><li><b>About Me</b> Section<ol class='nested-1'><li>Short bio about what your background is</li><li>Why you are taking this class</li><li>What type of job you want to get</li><li>Why you are hungry for that job</li></ol></li></ol>"
         },
-        'Feature Set 2 - Got Skills': {
+        'Feature Set 2 - Got Skills?': {
             html: "<ol class='left-border'><li><b>Skills</b> Section<ol class='nested-1'><li>Add at least 5 relevant tech skills that you hope to achieve by end of class</li></ol></li></ol>"
         },
         'Feature Set 3 - Experience': {
             html: "<ol class='left-border'><li><b>Experience</b> Section<ol class='nested-1'><li>Add at least 2 recent jobs &amp; descriptions</li></ol></li></ol>"
         },
         'Feature Set 4 - Contact Me': {
-            html: "<ol class='left-border'><li><b>Contact Me</b> Section<ol class='nested-1'><li>Github Account Link</li><li>Email Address</li><li>LinkedIn Profile Link</li></ol></li></ol>"
+            html: "<ol class='left-border'><li><b>Contact Me</b> Section<ol class='nested-1'><li>Include a link to your Github account</li><li>Your Email Address</li><li>Include a link to your LinkedIn profile</li></ol></li></ol>"
         },
         'Feature Set 5 - Navigation': {
             html: "<ol class='left-border'><li>Create an appropriate menu in your layout’s nav/header section<ol class='nested-1'><li>Link menu items to required content pages or sections (as defined in the layouts in the prototype referenced above)</li></ol></li></ol>"
