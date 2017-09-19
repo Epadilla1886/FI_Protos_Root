@@ -1,7 +1,7 @@
 // Portfolio V0.1
 app.controller('portfolio01Controller', function() {
     this.title = ['Portfolio Version 0.1', 'portfolio_v0.1'];
-    this.description = "<p>This project is used to present the skills you learn through the program to potential employers. All potential employers will be looking for a professional portfolio website that has good coding & visual examples. The different versions of this project are directly related to the skill sets that you should have obtained through the course. This project should be the type of project that should be worked on throughout the program especially when you feel caught up on all other materials (Weekly Projects, Readings, Videos, Prototypes, Skill Assessments).</p>";
+    this.description = "<p>This project is used to present the skills you learn through the program to potential employers. All potential employers will be looking for a professional portfolio website that has good coding & visual examples. The different versions of this project are directly related to the skill sets that you should have obtained throughout the course. This project should be the type of project that should be worked on throughout the program, especially when you feel caught up on all other materials (Weekly Projects, Readings, Videos, Prototypes, Skill Assessments).</p>";
     this.repoName = "portfolio_root";
     this.branch = 'v0.1';
     this.projectId = 1;
@@ -11,7 +11,7 @@ app.controller('portfolio01Controller', function() {
             'HTML Intro: Internet & Browsers': 'https://docs.google.com/presentation/d/1-Ds5wE1iv5WTBGK6D-BaCGwFWeVXSGYN8yvz8ojYnZo/pub?start=false&loop=false&delayms=3000&slide=id.p',
             'HTML Elements & Attributes': 'https://docs.google.com/presentation/d/1jHnfRkBVqiBw6GEa2mUR13fO468keu99NP_Befr8nmc/pub?start=false&loop=false&delayms=3000&slide=id.p',
             'HTML Formatting & HTML Styling': 'https://docs.google.com/presentation/d/1_FMjUbUgJjMOroOlVG4wkkNO9tvgRDVQ7YS2dirDPEI/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Head and Style Tags & CSS Intro ': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'Head and Style Tags & CSS Intro': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p',
             'HTML Links, Images & Lists': 'https://docs.google.com/presentation/d/1BrpssbsEhd7NeIjQAMEXKq-HSGtmDXlN3-TS2bc4J0w/pub?start=false&loop=false&delayms=3000&slide=id.p',
             'CSS Design & Layout 1': 'https://docs.google.com/presentation/d/1wJU3BPRs8Bdr-frGc61ijv2Hf8QHF_CrMNCtNl8PFV0/pub?start=false&loop=false&delayms=3000&slide=id.p',
             'CSS Intro - Positioning & Floating': 'https://docs.google.com/presentation/d/1AUaknmBg8MEVCxnakMf6jPnjVJxxHLfo0o5MifvilsQ/pub?start=false&loop=false&delayms=3000&slide=id.p'
@@ -52,29 +52,29 @@ app.controller('portfolio01Controller', function() {
 // Portfolio V0.5
 app.controller('portfolio05Controller', function() {
     this.title = ['Portfolio Version 0.5', 'portfolio_v0.5'];
-    this.description = "<p>This project is used to present the skills you learn through the program to potential employers. All employers will be looking for a portfolio site that has good coding & visual examples. The different versions of this project are directly related to the skill sets that you should have obtained at the time. This project the type of project that will be worked on through the program and is the default project to work on when you feel like you are caught up on all other items (Weekly Projects, Readings, Videos, Prototypes, Skill Assessments).</p>";
+    this.description = "<p>This project is used to present the skills you learn through the program to potential employers. All potential employers will be looking for a professional portfolio site that has good coding & visual examples. The different versions of this project are directly related to the skill sets that you should have obtained throughout the course. This project should be the type of project that should be worked on throughout the program, especially when you feel caught up on all other materials (Weekly Projects, Readings, Videos, Prototypes, Skill Assessments).</p>";
     this.repoName = "portfolio_root";
     this.branch = 'v0.5';
     this.projectId = 2;
 
     this.links = {
         'Related Slide': {
-            'Internet &amp; Browsers': 'https://docs.google.com/presentation/d/1-Ds5wE1iv5WTBGK6D-BaCGwFWeVXSGYN8yvz8ojYnZo/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Elements &amp; Attributes': 'https://docs.google.com/presentation/d/1jHnfRkBVqiBw6GEa2mUR13fO468keu99NP_Befr8nmc/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Text Formatting &amp; Style': 'https://docs.google.com/presentation/d/1_FMjUbUgJjMOroOlVG4wkkNO9tvgRDVQ7YS2dirDPEI/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Head &amp; Style Tags': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Links, Images &amp; Text Styling': 'https://docs.google.com/presentation/d/1BrpssbsEhd7NeIjQAMEXKq-HSGtmDXlN3-TS2bc4J0w/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Layout Structure &amp; Design #1': 'https://docs.google.com/presentation/d/1wJU3BPRs8Bdr-frGc61ijv2Hf8QHF_CrMNCtNl8PFV0/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Layout Structure &amp; Design #2': 'https://docs.google.com/presentation/d/1AUaknmBg8MEVCxnakMf6jPnjVJxxHLfo0o5MifvilsQ/pub?start=false&loop=false&delayms=3000&slide=id.p'
+            'HTML Intro: Internet & Browsers': 'https://docs.google.com/presentation/d/1-Ds5wE1iv5WTBGK6D-BaCGwFWeVXSGYN8yvz8ojYnZo/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Elements & Attributes': 'https://docs.google.com/presentation/d/1jHnfRkBVqiBw6GEa2mUR13fO468keu99NP_Befr8nmc/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Formatting & HTML Styling': 'https://docs.google.com/presentation/d/1_FMjUbUgJjMOroOlVG4wkkNO9tvgRDVQ7YS2dirDPEI/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'Head and Style Tags & CSS Intro': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Links, Images & Lists': 'https://docs.google.com/presentation/d/1BrpssbsEhd7NeIjQAMEXKq-HSGtmDXlN3-TS2bc4J0w/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'CSS Design & Layout 1': 'https://docs.google.com/presentation/d/1wJU3BPRs8Bdr-frGc61ijv2Hf8QHF_CrMNCtNl8PFV0/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'CSS Intro - Positioning & Floating': 'https://docs.google.com/presentation/d/1AUaknmBg8MEVCxnakMf6jPnjVJxxHLfo0o5MifvilsQ/pub?start=false&loop=false&delayms=3000&slide=id.p'
 
         },
         'Related Video': {
-            'Internet &amp; Browsers': 'https://www.youtube.com/watch?v=pcwNtWyzwJo',
-            'Elements &amp; Attributes': 'https://www.youtube.com/watch?v=2vqL3OsxRLE',
-            'Text Formatting &amp; Style': 'https://www.youtube.com/watch?v=P5sPEr52OVs',
-            'Head &amp; Style Tags': 'https://www.youtube.com/watch?v=Jnirh7CCMW8',
-            'Links, Images &amp; Text Styling': 'https://www.youtube.com/watch?v=w8robcf8-GY',
-            'Layout Structure &amp; Design': 'https://www.youtube.com/watch?v=0-WRsALktzE'
+            'HTML Intro: Internet & Browsers': 'https://www.youtube.com/watch?v=pcwNtWyzwJo',
+            'HTML Fundamentals - Elements, Attributes and Comments': 'https://www.youtube.com/watch?v=2vqL3OsxRLE',
+            'Text Formatting and Basic Styles': 'https://www.youtube.com/watch?v=P5sPEr52OVs',
+            'Head and Style Tags & CSS Intro': 'https://www.youtube.com/watch?v=Jnirh7CCMW8',
+            'HTML Links, Images & Lists': 'https://www.youtube.com/watch?v=w8robcf8-GY',
+            'Layout Structure and Design': 'https://www.youtube.com/watch?v=0-WRsALktzE'
         }
     };
 
@@ -83,13 +83,13 @@ app.controller('portfolio05Controller', function() {
             html: "<h4>Getting Started</h4><ol class='left-border'><li>Within your <b>" + this.repoName + "</b> folder create a sub folder named: <code>" + this.branch + "</code></li><li>You should now have two sub folders in your <b>" + this.repoName + "</b> folder, <b>v0.1</b> and <b>" + this.branch + "</b></li><li>Copy your <code>index.html</code> and <code>style.css</code> files from your <code>v0.1</code> folder and paste them into your new <code>" + this.branch + "</code> folder<ul><li><span class='label label-danger'>NOTE:</span> If you created any other files for your <code>v0.1</code> Portfolio, copy those to your new <code>" + this.branch + "</code> as well</li></ul></li><li>All work done on <b>" + this.branch + "</b> should be completed in your new <code>" + this.branch + "</code> folder</li></ol>"
         },
         'Feature Set 1 - Adding form': {
-            html: "<h4>Add A contact form into your contact me section from v0.1</h4><ol class='left-border'> <li>The form should have the following fields: <ol class='nested-1'> <li><b>Name</b> (<i>text input</i>)</li> <li><b>Email</b> (<i>text input</i>)</li> <li><b>Message</b> (<i>textarea</i>)</li> <li><b>Submit</b> (<i>button of type submit</i>)</li> </ol> </li> <li>The form should be responsive and display appropriately on a mobile device <ul> <li>fields should be single columns</li> </ul> </li> <li>The form should submit <ol class='nested-1'> <li>URL to submit to <code>http://danielpaschal.com/learningfuze/reflect.php</code></li> <li>Utilize the <code>POST</code> method</li> </ol> </li>"
+            html: "<h4>Add a contact form into your Contact Me section from v0.1</h4><ol class='left-border'> <li>The form should have the following fields: <ol class='nested-1'> <li><b>Name</b> (<i>text input</i>)</li> <li><b>Email</b> (<i>text input</i>)</li> <li><b>Message</b> (<i>textarea</i>)</li> <li><b>Submit</b> (<i>button of type submit</i>)</li> </ol> </li> <li>The form should be responsive and display appropriately on a mobile device <ul> <li>Fields should be organized to a single column</li> </ul> </li> <li>The form should submit <ol class='nested-1'> <li>URL to submit to <code>http://danielpaschal.com/learningfuze/reflect.php</code></li> <li>Utilize the <code>POST</code> method</li> </ol> </li>"
         },
         'Feature Set 2 - Add Bootstrap Module(s)':{
             html: "<h4>Add at least 1 bootstrap program module from the following list</h4><ol class='left-border'><li><a href='http://www.w3schools.com/bootstrap/bootstrap_panels.asp' target='_blank'>Multi-Panel | Tab-Panel</a></li><li><a href='http://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp' target='_blank'>Scroll Spy</a></li><li><a href='http://www.w3schools.com/bootstrap/bootstrap_carousel.asp' target='_blank'>Carousel</a></li><li><a href='http://www.w3schools.com/bootstrap/bootstrap_modal.asp' target='_blank'>Modal Info</a></li><li><a href='http://www.w3schools.com/bootstrap/bootstrap_collapse.asp' target='_blank'>Collapse Panel</a></li></ol>"
         },
         'Feature Set 3 - Menu Overlay': {
-            html: "<h4>Add a menu overlay that will serve to give more information about a project.</h4><ol class='left-border'><li><a href='https://jsfiddle.net/lfdaniel/pgdgn627/' target='_blank'>Simple Example</a></li><li><a href='https://jsfiddle.net/lfdaniel/eL7gtp0c/' target='_blank'>Advanced Example</a></li></ol>"
+            html: "<h4>Add a menu overlay that will serve to give more information about a project</h4><ol class='left-border'><li><a href='https://jsfiddle.net/lfdaniel/pgdgn627/' target='_blank'>Simple Example</a></li><li><a href='https://jsfiddle.net/lfdaniel/eL7gtp0c/' target='_blank'>Advanced Example</a></li></ol>"
         }
     }
 });
