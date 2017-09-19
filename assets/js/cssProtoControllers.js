@@ -141,7 +141,7 @@ app.controller('cssSelectorsController', function() {
 //css_bootstrap_grid
 app.controller('cssBsGridController', function() {
     this.title = ['CSS Bootstrap Grid System', 'css_bootstrap_grid'];
-    this.description = "<p>Expanding your understanding of CSS with an introduction to Bootstrap. Bootstrap gives you a wide range of styling options. For this prototype we will be experimenting with the Bootstrap grid system.</p><p>This prototype is based on the information that you obtained through the following resources <b>(If you haven't gone through these then please do so now).</b></p>";
+    this.description = "<p>Expand your understanding of CSS with an introduction to Bootstrap. Bootstrap gives you a wide range of styling options. For this prototype we will be experimenting with the Bootstrap grid system.</p><p>This prototype is based on the information that you obtained through the following resources <b>(If you haven't gone through these then please do so now).</b></p>";
     this.branch = 'css_bs_grid';
     this.protoId = 11;
 
