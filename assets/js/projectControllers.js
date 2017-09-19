@@ -1,17 +1,17 @@
 // Portfolio V0.1
 app.controller('portfolio01Controller', function() {
     this.title = ['Portfolio Version 0.1', 'portfolio_v0.1'];
-    this.description = "<p>This project is used to present the skills you learn through the program to potential employers. All employers will be looking for a portfolio site that has good coding & visual examples. The different versions of this project are directly related to the skill sets that you should have obtained at the time. This project the type of project that will be worked on through the program and is the default project to work on when you feel like you are caught up on all other items (Weekly Projects, Readings, Videos, Prototypes, Skill Assessments).</p>";
+    this.description = "<p>This project is used to present the skills you learn through the program to potential employers. All potential employers will be looking for a professional portfolio website that has good coding & visual examples. The different versions of this project are directly related to the skill sets that you should have obtained through the course. This project should be the type of project that should be worked on throughout the program especially when you feel caught up on all other materials (Weekly Projects, Readings, Videos, Prototypes, Skill Assessments).</p>";
     this.repoName = "portfolio_root";
     this.branch = 'v0.1';
     this.projectId = 1;
 
     this.links = {
         'Related Slide': {
-            'Internet &amp; Browsers': 'https://docs.google.com/presentation/d/1-Ds5wE1iv5WTBGK6D-BaCGwFWeVXSGYN8yvz8ojYnZo/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Elements &amp; Attributes': 'https://docs.google.com/presentation/d/1jHnfRkBVqiBw6GEa2mUR13fO468keu99NP_Befr8nmc/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Text Formatting &amp; Style': 'https://docs.google.com/presentation/d/1_FMjUbUgJjMOroOlVG4wkkNO9tvgRDVQ7YS2dirDPEI/pub?start=false&loop=false&delayms=3000&slide=id.p',
-            'Head &amp; Style Tags': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Intro: Internet & Browsers': 'https://docs.google.com/presentation/d/1-Ds5wE1iv5WTBGK6D-BaCGwFWeVXSGYN8yvz8ojYnZo/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Elements & Attributes': 'https://docs.google.com/presentation/d/1jHnfRkBVqiBw6GEa2mUR13fO468keu99NP_Befr8nmc/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Formatting & HTML Styling': 'https://docs.google.com/presentation/d/1_FMjUbUgJjMOroOlVG4wkkNO9tvgRDVQ7YS2dirDPEI/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'Head and Style Tags & CSS Intro ': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p',
             'Links, Images &amp; Text Styling': 'https://docs.google.com/presentation/d/1BrpssbsEhd7NeIjQAMEXKq-HSGtmDXlN3-TS2bc4J0w/pub?start=false&loop=false&delayms=3000&slide=id.p',
             'Layout Structure &amp; Design #1': 'https://docs.google.com/presentation/d/1wJU3BPRs8Bdr-frGc61ijv2Hf8QHF_CrMNCtNl8PFV0/pub?start=false&loop=false&delayms=3000&slide=id.p',
             'Layout Structure &amp; Design #2': 'https://docs.google.com/presentation/d/1AUaknmBg8MEVCxnakMf6jPnjVJxxHLfo0o5MifvilsQ/pub?start=false&loop=false&delayms=3000&slide=id.p'
