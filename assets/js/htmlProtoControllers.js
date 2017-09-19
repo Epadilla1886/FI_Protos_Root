@@ -292,8 +292,8 @@ app.controller('htmlFormsController', function() {
             'HTML Forms and Form Elements': 'http://portal.learningfuze.com/node/758'
         },
         'Related Project': {
-            Portfolio: 'https://github.com/Learning-Fuze/portfolio#version-1-v1',
-            mBoutique: 'https://github.com/Learning-Fuze/mboutique'
+            Portfolio: 'https://github.com/Learning-Fuze/portfolio_root',
+            mBoutique: 'https://github.com/Learning-Fuze/mboutique_root'
         }
     };
 
@@ -334,7 +334,7 @@ app.controller('htmlResponsiveDesignController', function() {
         },
         'Related Project': {
             Portfolio: 'https://github.com/Learning-Fuze/portfolio_root',
-            'mBoutique Contact Page': 'http://learning-fuze.github.io/prototypes_root/#/MBoutique-Assignment-4'
+            'mBoutique Contact Page': 'https://github.com/Learning-Fuze/mboutique_root#assignment-4'
         }
     };
 
