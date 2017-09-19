@@ -144,7 +144,7 @@ app.controller('htmlFund3Controller', function(){
             'HTML CSS': 'http://www.w3schools.com/html/html_css.asp'
         },
         Presentation: {
-            'HTML Formatting & HTML Styling': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p'
+            'Head and Style Tags & CSS Intro': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p'
         },
         Video: {
             'Head and Style Tags & CSS Intro': 'http://portal.learningfuze.com/node/639'
