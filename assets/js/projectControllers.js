@@ -125,7 +125,7 @@ app.controller('mboutique1Controller', function() {
 
     this.features = {
         'Assignment 1': {
-            html: '<h4>Getting Started</h4><ol class="left-border"><li>Within your <b>' + this.repoName + '</b> folder, create a sub folder named: <code>' + this.branch + '</code></li><li>In your new <code>' + this.branch + '</code> folder create the following files:<ol class="nested-1"><li><code>index.html</code></li><li><code>style.css</code></li></ol></li><li>In the <code>&lt;head&gt;</code> of your index file:<ol class="nested-1"><li>Give your site a title</li><li>Link to your <code>style.css</code></li></ol></li></ol>'
+            html: '<h4>Getting Started</h4><ol class="left-border"><li>Within your <b>' + this.repoName + '</b> folder, create a sub folder named: <code>' + this.branch + '</code></li><li>In your new <code>' + this.branch + '</code> folder create the following files:<ol class="nested-1"><li><code>index.html</code></li><li><code>style.css</code></li></ol></li><li>In the <code>&lt;head&gt;</code> section of your HTML file:<ol class="nested-1"><li>Give your site a title</li><li>Link to your <code>style.css</code></li></ol></li></ol>'
         },
         'Feature Set 1': {
             html: '<ol class="left-border"><li>Create the HTML and CSS necessary to reproduce the MBoutique home/welcome page<ul><li>Use the <code>index.html</code> file for your <b>HTML</b></li><li>Use the <code>style.css</code> file for your <b>CSS</b></li></ul></li><li>Use the design images for reference (Found in the assets folder)</li></ol>'
@@ -173,7 +173,7 @@ app.controller('mboutique2Controller', function() {
 
     this.features = {
         'Assignment 2': {
-            html: '<h4>Getting Started</h4><ol class="left-border"><li>Within your <b>' + this.repoName + '</b> folder, create a sub folder named: <code>' + this.branch + '</code></li><li>Copy all your files from your <b>assignment_1</b> folder and paste them into your new <code>' + this.branch + '</code> folder</li><li>In your new <code>' + this.branch + '</code> folder create the following file:<ol class="nested-1"><li><code>our_macarons.html</code></li></ol></li><li>In the <code>&lt;head&gt;</code>:<ol class="nested-1"><li>Give your new page an appropriate title</li><li>Link to your <code>style.css</code><ul><li><b>YES</b> - You are using the same stylesheet from the previous assignment. You will be using the same stylesheet throughout the whole project</li><li>Altogether you will have <b>ONE</b> stylesheet for all 4 pages</li></ul></li></ol></li></ol>'
+            html: '<h4>Getting Started</h4><ol class="left-border"><li>Within your <b>' + this.repoName + '</b> folder, create a sub folder named: <code>' + this.branch + '</code></li><li>Copy all your files from your <b>assignment_1</b> folder and paste them into your new <code>' + this.branch + '</code> folder</li><li>In your new <code>' + this.branch + '</code> folder create the following file:<ol class="nested-1"><li><code>our_macarons.html</code></li></ol></li><li>In the <code>&lt;head&gt;</code> section of your HTML file:<ol class="nested-1"><li>Give your new page an appropriate title</li><li>Link to your <code>style.css</code><ul><li><b>YES</b> - You are using the same stylesheet from the previous assignment. You will be using the same stylesheet throughout the whole project</li><li>Altogether you will have <b>ONE</b> stylesheet for all 4 pages</li></ul></li></ol></li></ol>'
         },
         'Feature Set 1 - Our Macarons Page': {
             html: '<ol class="left-border"><li>Create the HTML and CSS necessary to reproduce the MBoutique Our Macarons page<ul><li>Use the <code>our_macarons.html</code> file for your HTML</li><li>Use the <code>style.css</code> file for your CSS</li></ul></li><li>Don\'t forget to link your CSS to your HTML<ul><li>ex: <code>&lt;link rel="stylesheet" type="text/css" src="style.css"&gt;</code></li></ul></li><li>Use the design images for reference (Found in the assets folder)</li></ol>'
@@ -221,7 +221,7 @@ app.controller('mboutique3Controller', function() {
 
     this.features = {
         'Assignment 3': {
-            html: '<h4>Getting Started</h4><ol class="left-border"><li>Within your <b>' + this.repoName + '</b> folder, create a sub folder named: <code>' + this.branch + '</code></li><li>Copy all your files from your <b>assignment_2</b> folder and paste them into your new <code>' + this.branch + '</code> folder</li><li>In your new <code>' + this.branch + '</code> folder create the following file:<ol class="nested-1"><li><code>gifts_parties.html</code></li></ol></li><li>In the <code>&lt;head&gt;</code>:<ol class="nested-1"><li>Give your new page an appropriate title</li><li>Link to your <code>style.css</code><ul><li><b>YES</b> - You are using the same stylesheet from the previous assignment. You will be using the same stylesheet throughout the whole project</li><li>Altogether you will have <b>ONE</b> stylesheet for all 4 pages</li></ul></li></ol></li></ol>'
+            html: '<h4>Getting Started</h4><ol class="left-border"><li>Within your <b>' + this.repoName + '</b> folder, create a sub folder named: <code>' + this.branch + '</code></li><li>Copy all your files from your <b>assignment_2</b> folder and paste them into your new <code>' + this.branch + '</code> folder</li><li>In your new <code>' + this.branch + '</code> folder create the following file:<ol class="nested-1"><li><code>gifts_parties.html</code></li></ol></li><li>In the <code>&lt;head&gt;</code> section of your HTML file:<ol class="nested-1"><li>Give your new page an appropriate title</li><li>Link to your <code>style.css</code><ul><li><b>YES</b> - You are using the same stylesheet from the previous assignment. You will be using the same stylesheet throughout the whole project</li><li>Altogether you will have <b>ONE</b> stylesheet for all 4 pages</li></ul></li></ol></li></ol>'
         },
         'Feature Set 1 - Gifts and Parties page': {
             html: '<ol class="left-border"><li>Create the HTML and CSS necessary to reproduce the MBoutique Gifts &amp; Parties page<ul><li>Use the <code>gifts_parties.html</code> file for your HTML</li><li>Use the <code>style.css</code> file for your CSS</li></ul></li><li>Don\'t forget to link your CSS to your HTML<ul><li>ex: <code>&lt;link rel="stylesheet" type="text/css" src="style.css"&gt;</code></li></ul></li><li>Use the design images for reference (Found in the assets folder)</li></ol>'
@@ -241,21 +241,37 @@ app.controller('mboutique3Controller', function() {
 //MBoutique - Assignment 4
 app.controller('mboutique4Controller', function() {
     this.title = ['MBoutique Assignment 4', 'mboutique_assignment_4'];
-    this.description = "<p>This project will combine all the HTML and CSS knowledge you have gained so far to create a full website. For assignment 4 you will be building out the Contact Page of the MBoutique website.</p>";
+    this.description = "<p>This project will combine all the HTML and CSS knowledge you have gained so far to create a full website. For assignment 4 you will be building out the Contact page of the MBoutique website.</p>";
     this.repoName = "mboutique_root";
     this.branch = 'assignment_4';
     this.projectId = 5;
 
-    //this.links = {
-    //    'Related Slide': {},
-    //    'Related Video': {}
-    //};
+    this.links = {
+        'Related Slide': {
+            'HTML Intro: Internet & Browsers': 'https://docs.google.com/presentation/d/1-Ds5wE1iv5WTBGK6D-BaCGwFWeVXSGYN8yvz8ojYnZo/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Elements & Attributes': 'https://docs.google.com/presentation/d/1jHnfRkBVqiBw6GEa2mUR13fO468keu99NP_Befr8nmc/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Formatting & HTML Styling': 'https://docs.google.com/presentation/d/1_FMjUbUgJjMOroOlVG4wkkNO9tvgRDVQ7YS2dirDPEI/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'Head and Style Tags & CSS Intro': 'https://docs.google.com/presentation/d/1VwhN-Kv3m-BXPIHFWIvVBH_8yGxDrMuDNGDki_NCpug/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'HTML Links, Images & Lists': 'https://docs.google.com/presentation/d/1BrpssbsEhd7NeIjQAMEXKq-HSGtmDXlN3-TS2bc4J0w/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'CSS Design & Layout 1': 'https://docs.google.com/presentation/d/1wJU3BPRs8Bdr-frGc61ijv2Hf8QHF_CrMNCtNl8PFV0/pub?start=false&loop=false&delayms=3000&slide=id.p',
+            'CSS Intro - Positioning & Floating': 'https://docs.google.com/presentation/d/1AUaknmBg8MEVCxnakMf6jPnjVJxxHLfo0o5MifvilsQ/pub?start=false&loop=false&delayms=3000&slide=id.p'
+
+        },
+        'Related Video': {
+            'HTML Intro: Internet & Browsers': 'https://www.youtube.com/watch?v=pcwNtWyzwJo',
+            'HTML Fundamentals - Elements, Attributes and Comments': 'https://www.youtube.com/watch?v=2vqL3OsxRLE',
+            'Text Formatting and Basic Styles': 'https://www.youtube.com/watch?v=P5sPEr52OVs',
+            'Head and Style Tags & CSS Intro': 'https://www.youtube.com/watch?v=Jnirh7CCMW8',
+            'HTML Links, Images & Lists': 'https://www.youtube.com/watch?v=w8robcf8-GY',
+            'Layout Structure and Design': 'https://www.youtube.com/watch?v=0-WRsALktzE'
+        }
+    };
 
     this.features = {
         'Assignment 4': {
-            html: '<h4>Getting Started</h4><ol class="left-border"><li>Within your <b>' + this.repoName + '</b> folder, create a sub folder named: <code>' + this.branch + '</code></li><li>Copy all your files from your <b>assignment_3</b> folder and paste them into your new <code>' + this.branch + '</code> folder</li><li>In your new <code>' + this.branch + '</code> folder create the following file:<ol class="nested-1"><li><code>contact.html</code></li></ol></li><li>In the <code>&lt;head&gt;</code>:<ol class="nested-1"><li>Give your new page an appropriate title</li><li>Link to your <code>style.css</code><ul><li><b>YES</b> - You are using the same stylesheet from the previous assignment. You will be using the same stylesheet file throughout the whole project</li><li>Altogether you will have <b>ONE</b> stylesheet for all 4 pages</li></ul></li></ol></li></ol>'
+            html: '<h4>Getting Started</h4><ol class="left-border"><li>Within your <b>' + this.repoName + '</b> folder, create a sub folder named: <code>' + this.branch + '</code></li><li>Copy all your files from your <b>assignment_3</b> folder and paste them into your new <code>' + this.branch + '</code> folder</li><li>In your new <code>' + this.branch + '</code> folder create the following file:<ol class="nested-1"><li><code>contact.html</code></li></ol></li><li>In the <code>&lt;head&gt;</code> section of your HTML file:<ol class="nested-1"><li>Give your new page an appropriate title</li><li>Link to your <code>style.css</code><ul><li><b>YES</b> - You are using the same stylesheet from the previous assignment. You will be using the same stylesheet throughout the whole project</li><li>Altogether you will have <b>ONE</b> stylesheet for all 4 pages</li></ul></li></ol></li></ol>'
         },
-        'Feature Set 1 - Contact Page Mobile Friendly': {
+        'Feature Set 1 - Mobile Friendly Contact Page': {
             html: '<ol class="left-border"><li>Create the HTML and CSS necessary to reproduce a mobile friendly version of the MBoutique Contact page<ol class="nested-1"><li>Use the <code>contact.html</code> file for your HTML</li><li>Use the <code>style.css</code> file for your CSS</li><li>The page should match the design dock when displayed on a large screen</li><li>The page should switch to a mobile version on smaller screens<ul><li>Refer to mobile images below for desired look</li></ul></li></ol></li><li>Don\'t forget to link your CSS to your HTML<ul><li>ex: <code>&lt;link rel="stylesheet" type="text/css" src="style.css"&gt;</code></li></ul></li><li>Use the design images for reference (Found in the assets folder)</li><li>For testing on a mobile device refer to the <a href="#Tutorials-Dev-Tools-Mobile-View">Dev Tools - Mobile View</a> tutorial<ul><li>For this assignment you will be testing the output for an <b>iPhone 6</b></li></ul></li><li>In the <code>&lt;head&gt;</code> section of your <code>contact.html</code> page add the following <code>&lt;meta&gt;</code> tag<ul><li><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></li><li>Without the above tag, your page will not display properly on a mobile device</li></ul></li></ol>'
         },
         'Screenshot Example': {
@@ -271,7 +287,7 @@ app.controller('mboutique4Controller', function() {
             html: '<ol class="left-border"><li>Use media quieries for your CSS, like<ul><li><code>@media sceen and (max-width: 627px)</code></li></ul></li><li>For your sizing use percentages, vh and vw</li><li>Keep mobile in mind when you are building the full size site<ul><li>Use the mobile first approach</li></ul></li></ol>'
         },
         'Suggestions': {
-            html: '<ol class="left-border"><li>Break the page down into sections and build one section at a time. For example:<ol class="nested-1"><li>Header section</li><li>Body/Main content section</li><li>Footer section</li></ol></li><li>Keep in mind that there are multiple pages<ol class="nested-1"><li>Notice the sections that are the same on all pages like the header and footer</li><li>Design your HTML so that it will be easy to reuse the header and footer sections on all the pages</li></ol></li><li>Don\'t panic<ol class="nested-1"><li>If you get stuck or have any issues use google or the LearningFuze forum</li></ol></li><li>If you are familiar with them, make use of the chrome developer tools to prototype out your changes.<ol class="nested-1"><li>You can find more details on <a href="http://discover-devtools.codeschool.com">CODESCHOOL</a> and otherplaces.</li></ol></li><li>Test each CSS change as you implement it. It can be difficult to ascertain "what went wrong" if you do manylines of code and then test it.</li><li>Pay attention to the gross details first, and then make a second pass for fine details.</li></ol>'
+            html: '<ol class="left-border"><li>Break the page down into sections and build one section at a time. For example:<ol class="nested-1"><li>Header section</li><li>Body/Main content section</li><li>Footer section</li></ol></li><li>Keep in mind that this project will have multiple pages<ol class="nested-1"><li>Notice which sections are shared between all pages (like the header and footer)</li><li>Design your HTML so that it will be easy to reuse the header and footer sections on all the pages</li></ol></li><li>Don\'t panic<ol class="nested-1"><li>If you get stuck or have any issues use Google or the LearningFuze Slack channel</li></ol></li><li>If you are familiar with them, make use of the Chrome developer tools to prototype out your changes.<ol class="nested-1"><li>You can find more details on <a href="http://discover-devtools.codeschool.com">CodeSchool</a> and other places.</li></ol></li><li>Test each CSS change as you implement it. Sometimes it can be difficult to ascertain "what went wrong" if you write a ton of code and wait to test it at the very end.</li><li>Pay attention to the broad details first, and then make a second pass for the fine details.</li></ol>'
         }
     }
 });
